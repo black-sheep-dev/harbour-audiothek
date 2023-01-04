@@ -12,8 +12,6 @@
 # The name of your application
 TARGET = harbour-audiothek
 
-QT += multimedia
-
 CONFIG += sailfishapp_qml
 
 PKGCONFIG += nemonotifications-qt5
