@@ -202,12 +202,6 @@ Page {
                 }
             }
 
-            SectionHeader {
-                visible: !loading
-                text: itemsTitle
-                font.pixelSize: Theme.fontSizeLarge
-            }
-
             CollectionsSlideView {
                 title: itemsTitle
                 model: items

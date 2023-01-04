@@ -43,6 +43,8 @@ Audiothek is an unoffical ARD Audiothek Content Viewer for Sailfish OS.
     - https://github.com/black-sheep-dev/harbour-audiothek/raw/master/metadata/screenshot1.png
     - https://github.com/black-sheep-dev/harbour-audiothek/raw/master/metadata/screenshot2.png
     - https://github.com/black-sheep-dev/harbour-audiothek/raw/master/metadata/screenshot3.png
+    - https://github.com/black-sheep-dev/harbour-audiothek/raw/master/metadata/screenshot4.png
+    - https://github.com/black-sheep-dev/harbour-audiothek/raw/master/metadata/screenshot5.png
   Url:
     Donation: https://www.paypal.com/paypalme/nubecula/1
   %endif
