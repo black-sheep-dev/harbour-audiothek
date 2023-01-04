@@ -6,6 +6,8 @@ The copyright belongs to [ARD Audiothek](https://www.ardaudiothek.de/)!
 
 >![](icons/128x128/harbour-audiothek.png)
 
+[![](https://github.com/black-sheep-dev/harbour-audiothek/actions/workflows/main.yml/badge.svg)](https://github.com/black-sheep-dev/harbour-audiothek/actions/workflows/main.yml)
+
 ## Current state of development
 I started this project just for fun. It is more or less in an alpha state. During development the API of Audiothek changed. There seems to be a transition of the offical app to a GraphQL implementation. Let's hope that the old API will not be switched off! 
 
