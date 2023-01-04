@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-audiothek
+Exec=sailfish-qml harbour-audiothek
+Name=Audiothek
+
+[X-Sailjail]
+OrganizationName=org.nubecula
+# ApplicationName does not have to be identical to Name
+ApplicationName=audiothek
+# Add the required permissions here
+Permissions=Internet;Audio
