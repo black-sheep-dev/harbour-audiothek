@@ -17,6 +17,7 @@ ApplicationWindow {
         property int keptItemsCount: 5
         property int paginationCount: 20
         property int playbackMode: 0
+        property int shareMode: 0
 //        property string lastPlaylist
     }
 

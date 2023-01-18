@@ -46,7 +46,7 @@ Page {
                 //% "Share"
                 text: qsTrId("id-share")
                 onClicked: {
-                    Clipboard.text = playlistModel.content["shareUrl"]
+                    Clipboard.text = playlistModel.content["sharingUrl"]
                     //% "Link copied to clipboard"
                     notification.show(qsTrId("id-copied-to-clipboard"))
                 }

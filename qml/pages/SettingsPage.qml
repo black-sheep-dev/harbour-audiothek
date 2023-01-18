@@ -47,6 +47,36 @@ Page {
                 onClicked: remorse.execute(qsTrId("id-reset-database"), DB.reset())
             }
 
+            SectionHeader {
+                //% "Share"
+                text: qsTrId("Share")
+            }
+
+            Label {
+                x: Theme.horizontalPageMargin
+                width: parent.width - 2*x
+                color: Theme.highlightColor
+                wrapMode: Text.Wrap
+                //% "You can decide whether you want to share the page or the actual podcast url."
+                text: qsTrId("id-settings-share-desc")
+            }
+
+            ComboBox {
+                //% "Share mode"
+                label: qsTrId("id-share-mode")
+
+                menu: ContextMenu {
+                    //% "Page"
+                    MenuItem { text: qsTrId("id-page") }
+                    //% "Podcast"
+                    MenuItem { text: qsTrId("id-podcast") }
+                }
+
+                onCurrentIndexChanged: settings.shareMode = currentIndex
+
+                Component.onCompleted: currentIndex = settings.shareMode
+            }
+
 //            SectionHeader {
 //                //% "Player"
 //                text: qsTrId("id-player")

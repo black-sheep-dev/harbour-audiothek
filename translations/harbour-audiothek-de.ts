@@ -220,6 +220,26 @@
         <source>Type in a search pattern to find content</source>
         <translation>Gib einen Suchbegriff ein um Inhalte zu finden</translation>
     </message>
+    <message id="Share">
+        <source>Share</source>
+        <translation>Teilen</translation>
+    </message>
+    <message id="id-settings-share-desc">
+        <source>You can decide whether you want to share the page or the actual podcast url.</source>
+        <translation>Du kannst entscheiden, ob du die Seite oder den eigentlichen Podcast teilen möchstes.</translation>
+    </message>
+    <message id="id-share-mode">
+        <source>Share mode</source>
+        <translation>Tielen Modus</translation>
+    </message>
+    <message id="id-page">
+        <source>Page</source>
+        <translation>Seite</translation>
+    </message>
+    <message id="id-podcast">
+        <source>Podcast</source>
+        <translation>Podcast</translation>
+    </message>
 </context>
 <context>
     <name>CoverPage</name>

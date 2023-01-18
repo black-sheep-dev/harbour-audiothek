@@ -65,9 +65,14 @@ Page {
                 //% "Share"
                 text: qsTrId("id-share")
                 onClicked: {
-                    Clipboard.text = content["shareUrl"]
+                    if (settings.shareMode === 0) {
+                        Clipboard.text = content["sharingUrl"]
+                    } else {
+                        Clipboard.text = content["audios"][0]["url"]
+                    }
                     //% "Link copied to clipboard"
                     notification.show(qsTrId("id-copied-to-clipboard"))
+
                 }
             }
             MenuItem {

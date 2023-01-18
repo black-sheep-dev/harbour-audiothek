@@ -278,6 +278,26 @@
         <source>Type in a search pattern to find content</source>
         <translation>Type in a search pattern to find content</translation>
     </message>
+    <message id="Share">
+        <source>Share</source>
+        <translation>Share</translation>
+    </message>
+    <message id="id-settings-share-desc">
+        <source>You can decide whether you want to share the page or the actual podcast url.</source>
+        <translation>You can decide whether you want to share the page or the actual podcast url.</translation>
+    </message>
+    <message id="id-share-mode">
+        <source>Share mode</source>
+        <translation>Share mode</translation>
+    </message>
+    <message id="id-page">
+        <source>Page</source>
+        <translation>Page</translation>
+    </message>
+    <message id="id-podcast">
+        <source>Podcast</source>
+        <translation>Podcast</translation>
+    </message>
 </context>
 <context>
     <name>SearchPage</name>
