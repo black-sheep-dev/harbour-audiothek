@@ -2,6 +2,7 @@ pragma Singleton
 import QtQuick 2.0
 
 Item {
+    readonly property string appId: "harbour-audiothek"
     readonly property string appVersion: "0.1.0"
 
     function applyDataToImageLink(link, ratio, width) {
